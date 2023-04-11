@@ -1,0 +1,39 @@
+Linux commands
+ctrl+alt=T-comanda otkrytiya terminala
+~-simvol domashney direktorii
+/-SIMVOL KORNEVOY DIREKTORII
+.-oboznachayet tekushuyu direktoriyu
+..-oboznachayet predydushuyu direktoriyu
+
+1. ls-komanda dlya vyvoda vseh direktoriy(papki) i failov v tekushey  direktorii v terminale
+
+2. cd(change directory) - komanda Ilya perehoda iz odnoy direktorii v druguyu
+
+3. mkdir-sozdayet direktorii
+
+4. touch-sozdayet fail
+
+5. rmdir-udalyaet fail
+
+6. rm-udalyaett fail
+
+7. rm-rf-udalyaet voobshe vse (prinudttelnoe uudaleniye)
+
+8. ls -a-pokazyvayet skrytyye I obychnye fairy direktorii
+Ls -la-pokazyvayet podrobnuyu informaciyu
+
+9 pwd (PRINT WORKING DIREKTORI)-VYVODYT put' do tekushey direktorii
+
+10. CP-KOPYRUYET FAILY ILI DIREKToRIYU V UKAZANNOE MESTO
+    CP <NAZVANIE> <KUDA>
+
+11. Mv-komanda dla peremesheniya faila ili direktoriyu , a takje dlya pereimenovyvanie faila ili direttori
+    pereimenovyvanie: mv john.txt jamie.txt
+    Peremeshenie: mv john.txt direktori/
+
+12. Cat-pokazyvayet soderjanie faila
+
+13. Nano-otkryvayet fail daya redaktirovaniya v graficheskom interfeise nano *esli net faila,to nano sozdast novyi
+
+14. Echo-komanda dla bystroy zapisu teksta v fail 
+    Echo tekst > fail
