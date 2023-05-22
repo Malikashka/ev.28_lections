@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moon</title>
+    <link rel="stylesheet" href="../css/media/media/style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">moon</a>
+        <ul>
+            <li><a href="#" class="active">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">makers</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src="stars.png" id="stars">
+        <img src="moon.png" id="moon">
+        <img src="mountains_behind.png" id="behind">
+        <h2 id="text">moon light</h2>
+        <a href="#"id="btn">explore</a>
+        <img src="mountains_front.png" id="front">
+    </section>
+    <div class="sec" id="sec">
+        <h2>sccrolling effects</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam officia numquam, enim esse autem voluptatum! A explicabo temporibus fugit aperiam esse animi, officiis vel fugiat excepturi quibusdam quidem, labore <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, temporibus mollitia? Dignissimos quibusdam, saepe corrupti alias fugiat quis ipsum, nihil repellendus illum, aliquam possimus ullam? Doloremque sed aspernatur perferendis error?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum iste delectus, tempora blanditiis fugiat id velit soluta dolorem atque dignissimos corrupti! Officiis accusamus dolore assumenda fugiat distinctio eveniet voluptatem ad!brlorembr</p>
+    </div>
+    <script>
+        let stars = document.getElementById('stars')
+        let moon = document.getElementById('moon')
+        let mount_behind = document.getElementById('behind')
+        let text = document.getElementById('text')
+        let btn = document.getElementById('btn')
+        let mount_front = document.getElementById('front')
+        let header = document.querySelector('header')
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY
+            stars.style.left = value * 0.25 + 'px'
+            moon.style.top = value * 1.05 + 'px'
+            mount_behind.style.top = value * 0.5 + 'px'
+            mount_front.style.yop = value *0.4 + 'px'
+            text.style.marginRight = value * 4 + 'px'
+            text.style.marginTop = value * 1.5 + 'px'
+            btn.style.marginTop =value * 1.5 + 'px'
+            header.style.top = value * 0.5 + 'px'
+        })
+    </script>
+
+</body>
+</html>

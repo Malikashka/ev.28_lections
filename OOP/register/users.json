@@ -1,0 +1,32 @@
+[
+    {
+        "id": 2,
+        "username": "Malika2",
+        "firstname": "John",
+        "last_name": "Snow",
+        "password": {
+            "password": "\u00b9<]V\n\u00c3=\u00b7\\\u00cac\u0014\u00c8W \u00a2\u00cbx\u0089\u0092\u00f8N\u00eaZ\u00ad\u0001\u00bf\u00c24\u0083*\u001d",
+            "salt": "\u009a\u00a8\u00f8\u00c9\u00a0\u00c9g\u001b\u001a\u008a\u00bf\u0012^\u00ddqOa\u00b29\u00e2\t|OY\u008c\u0007\u00c8\u0089\u00d41_\b"
+        }
+    },
+    {
+        "id": 3,
+        "username": "billi",
+        "firstname": "billi",
+        "last_name": "billi",
+        "password": {
+            "password": "}\u00b2\u00f2fh>\u00cc4\n\u00ce-*\u001f\u00b7\u00f5\u000b\u00ee\u00c1\u00e0{o\u00ec\u0097\u008a*0\u00d2\u00d4//\u00c2\u001b",
+            "salt": "z\b\u00e2\u0083'K\u00bfo|\u00d4\u00bb\u0093\fG\u00dd\u001c\u00a2\u00ce\u0099U\u001a5\u0019\u0013\u0087~\u0085QJ\u00ac\u00f04"
+        }
+    },
+    {
+        "id": 4,
+        "username": "JohnSnow",
+        "firstname": "John",
+        "last_name": "Snow",
+        "password": {
+            "password": "\u00c5\u0094/\u00c7\u00034\u0005H\u00ed\u001fb\u00e5;\u00ee;5B+\u0098S\u00f8\u001d\u00e2\u0019\u00ca\u00b2\u009dZK\n\u0087\u00eb",
+            "salt": "\u0096u\u00f3[p\u00c2\u00e6%\u008eZI\u0011\u0080SK^\u0090\u00f7\u001eU+\u00e0[uC\u0099A\u001a\u0006\u00c4\u00a3\u007f"
+        }
+    }
+]

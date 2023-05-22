@@ -1,0 +1,30 @@
+[
+    {
+        "id": 2,
+        "title": "Redmi Note 20",
+        "description": "Flagman of redmi phones!",
+        "qty": 5,
+        "price": 500
+    },
+    {
+        "id": 3,
+        "title": "Iphone 14 Pro Max",
+        "description": "New cool and super phones!",
+        "qty": 5,
+        "price": 1300
+    },
+    {
+        "id": 4,
+        "title": "Sumsung S22 Ultra",
+        "description": "The best phone for android lovers!",
+        "qty": 3,
+        "price": 1000
+    },
+    {
+        "id": 5,
+        "title": "IPHONE 13 PRO MAX",
+        "description": "The best phone!",
+        "qty": 15,
+        "price": 1000
+    }
+]
